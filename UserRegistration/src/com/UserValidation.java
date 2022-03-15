@@ -67,7 +67,7 @@ public class UserValidation {
         if (validateRegex(email, RegexConstants.EMAIL_REGEX)){
             return true;
         } else {
-            System.out.println("Invalid email.");
+            //System.out.println("Invalid email.");
         }
         return false;
     }
